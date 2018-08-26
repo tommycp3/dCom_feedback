@@ -1,54 +1,63 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { googleLogin, twitterLogin } from '../actions/userAction';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { googleLogin, twitterLogin } from "../actions/userAction";
 
 class Login extends Component {
-    componentWillMount() {
-        if (this.props.user !== null) {
-            // console.log(this.props.history);
-            this.props.history.push('/');
-        }
+  componentWillMount() {
+    if (this.props.user !== null) {
+      // console.log(this.props.history);
+      this.props.history.push("/");
     }
+  }
 
-    componentWillReceiveProps(nextProps) {
-        if (nextProps.user !== null) {
-            nextProps.history.push('/');
-        }
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.user !== null) {
+      nextProps.history.push("/");
     }
+  }
 
-    render() {
-        return (
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-sm-12 jumbotron" style={{ marginTop: '-20px' }}>
-                        <h1>DIARY | {new Date().getFullYear()}</h1>
-                        <h2>
-                            <i>
-                                Login with your favourite <b>Social Network</b> to start writting!
-                            </i>
-                        </h2>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-sm-12">
-                        <button className="btn btn-danger col-sm-6" onClick={this.props.googleLogin}>
-                            Login with Google
-                        </button>
+  render() {
+    return (
+      <div className="container-fluid">
+        <div className="row">
+          <div className="row text-center">
+            <div className="col-sm-12 jumbotron" style={{ marginTop: "-20px" }}>
+              <h1>
+                Welcome to the dCom feedback Portal
+              </h1>
 
-                        <button className="btn btn-info col-sm-6" onClick={this.props.twitterLogin}>
-                            Login with Twitter
-                        </button>
-                    </div>
-                </div>
+              <p>
+                <i>
+                  "The best way to involve the mesh and crowdsource the best ideas to use ethereum to bring accountability and transparency to our internet infrasctructure."
+                </i>
+              </p>
             </div>
-        );
-    }
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-12">
+            <button
+              className="btn btn-danger col-sm-12"
+              onClick={this.props.googleLogin}
+            >
+              Login with Google
+            </button>
+
+            
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 function mapStateToProps(state, onwProps) {
-    return {
-        user: state.user
-    };
+  return {
+    user: state.user
+  };
 }
 
-export default connect(mapStateToProps, { googleLogin, twitterLogin })(Login);
+export default connect(
+  mapStateToProps,
+  { googleLogin, twitterLogin }
+)(Login);
