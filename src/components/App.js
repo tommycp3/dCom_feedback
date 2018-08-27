@@ -51,6 +51,13 @@ class App extends Component {
             <h2>{note.title}</h2>
           </Link>
           <p>{note.body}</p>
+
+
+
+
+
+          {/* COMMENTED OUT DELETE AND UPDATE BUTTON FOR THE TIME BEING
+          
           {note.uid === this.props.user.uid && (
             <div>
               <button
@@ -64,6 +71,14 @@ class App extends Component {
               </button>
             </div>
           )}
+
+          */}
+
+
+
+
+
+
         </NoteCard>
       );
     });
@@ -80,28 +95,121 @@ class App extends Component {
           <div>
             <h3>Supporting Documents</h3>
             <ul>
-              <li><a href="https://docs.google.com/presentation/d/15AnPP2wa1MrGCAZsnXRVqXN5qdybUGI_Z9Qw-h4bqkw/edit#slide=id.g3ed1b04126_0_0" target="_blank">Supporting Deck</a></li>
-              <li><a href="https://drive.google.com/file/d/1uBAnIQ2d5ForoAlhqkIeK61vqFbnvdMi/view?usp=sharing" target="_blank">Active Timeline - Placeholder</a></li>
-              <li><a href="https://docs.google.com/drawings/d/11a8dVPfgmczfWj3CXh57ayfv-6KgoNelZQ0si4vrlSE/edit?usp=sharing" target="_blank">Funding - "How To" Documentation</a></li>
-              <li><a href="https://docs.google.com/drawings/d/11a8dVPfgmczfWj3CXh57ayfv-6KgoNelZQ0si4vrlSE/edit?usp=sharing" target="_blank">Legal Structure and xxxx</a></li>
+              <li>
+                <a
+                  href="https://docs.google.com/presentation/d/15AnPP2wa1MrGCAZsnXRVqXN5qdybUGI_Z9Qw-h4bqkw/edit#slide=id.g3ed1b04126_0_0"
+                  target="_blank"
+                >
+                  Supporting Deck
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1uBAnIQ2d5ForoAlhqkIeK61vqFbnvdMi/view?usp=sharing"
+                  target="_blank"
+                >
+                  Active Timeline - Placeholder
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/drawings/d/11a8dVPfgmczfWj3CXh57ayfv-6KgoNelZQ0si4vrlSE/edit?usp=sharing"
+                  target="_blank"
+                >
+                  Funding - "How To" Documentation
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/drawings/d/11a8dVPfgmczfWj3CXh57ayfv-6KgoNelZQ0si4vrlSE/edit?usp=sharing"
+                  target="_blank"
+                >
+                  Legal Structure and xxxx
+                </a>
+              </li>
+              <li>
+                <a href="https://wallet.gnosis.pm/#/wallets" target="_blank">
+                  Worried about how the soccer mum will manage her private keys?
+                  - learn how to create a group investment with a multisignature
+                  wallet, for maxium security against individuals losing private
+                  keys.
+                </a>
+              </li>
             </ul>
-            
 
             <br />
             <br />
             <br />
+            <br />
 
+            <h4>Funding Stages</h4>
+
+            <ul>
+              <li>
+                <a
+                  href="https://docs.google.com/presentation/d/15AnPP2wa1MrGCAZsnXRVqXN5qdybUGI_Z9Qw-h4bqkw/edit#slide=id.g3ed1b04126_0_0"
+                  target="_blank"
+                >
+                  Stage 0.5 - 1 year finance for Management team to continue
+                  this financing and developer team to imporove investor portal.
+                </a>
+                <ul>
+                  <li>Thomas Miller $120k/year</li>
+                  <li>Greg Narracott $120k/year</li>
+                  <li>Greg Narracott $120k/year</li>
+                </ul>
+
+                <a
+                  href="https://docs.google.com/presentation/d/15AnPP2wa1MrGCAZsnXRVqXN5qdybUGI_Z9Qw-h4bqkw/edit#slide=id.g3ed1b04126_0_0"
+                  target="_blank"
+                >
+                  Stage 1 - Raise funds for Core Network in Brisbane
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1uBAnIQ2d5ForoAlhqkIeK61vqFbnvdMi/view?usp=sharing"
+                  target="_blank"
+                >
+                  Stage 2 - Raise funds for Stanthorpe, Warrick, Charleville
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/drawings/d/11a8dVPfgmczfWj3CXh57ayfv-6KgoNelZQ0si4vrlSE/edit?usp=sharing"
+                  target="_blank"
+                >
+                  Stage 3 -
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/drawings/d/11a8dVPfgmczfWj3CXh57ayfv-6KgoNelZQ0si4vrlSE/edit?usp=sharing"
+                  target="_blank"
+                >
+                  Stage 4 -
+                </a>
+              </li>
+              <li>
+                <a href="https://wallet.gnosis.pm/#/wallets" target="_blank">
+                  Stage 5 -
+                </a>
+              </li>
+            </ul>
+
+            <br />
+            <br />
+            <br />
           </div>
           <div className="text-center">
             <h2>
-              Please add a comment below to enter your feedback, idea
-              refinement or help
+              Please add a comment below to enter your feedback, idea refinement
+              or help...
             </h2>
 
             <br />
             <br />
             <br />
-
           </div>
         </div>
 
@@ -155,6 +263,7 @@ class App extends Component {
             <br />
             <br />
             <h3>Current Feedback</h3>
+            <p>Click on a talking point to see sub discussion points.</p>
             {this.renderNotes()}
           </div>
         </div>
