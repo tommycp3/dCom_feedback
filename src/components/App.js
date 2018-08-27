@@ -79,8 +79,18 @@ class App extends Component {
 
           <div>
             <h3>Supporting Documents</h3>
+            <ul>
+              <li><a href="https://docs.google.com/presentation/d/15AnPP2wa1MrGCAZsnXRVqXN5qdybUGI_Z9Qw-h4bqkw/edit#slide=id.g3ed1b04126_0_0" target="_blank">Supporting Deck</a></li>
+              <li><a href="https://drive.google.com/file/d/1uBAnIQ2d5ForoAlhqkIeK61vqFbnvdMi/view?usp=sharing" target="_blank">Active Timeline - Placeholder</a></li>
+              <li><a href="https://docs.google.com/drawings/d/11a8dVPfgmczfWj3CXh57ayfv-6KgoNelZQ0si4vrlSE/edit?usp=sharing" target="_blank">Funding - "How To" Documentation</a></li>
+              <li><a href="https://docs.google.com/drawings/d/11a8dVPfgmczfWj3CXh57ayfv-6KgoNelZQ0si4vrlSE/edit?usp=sharing" target="_blank">Legal Structure and xxxx</a></li>
+            </ul>
             
-            <p>Supporting Deck</p>
+
+            <br />
+            <br />
+            <br />
+
           </div>
           <div className="text-center">
             <h2>
@@ -117,7 +127,7 @@ class App extends Component {
                   type="text"
                   name="title"
                   className="form-control no-border"
-                  placeholder="Please enter the flaw or risk you see to this business model..."
+                  placeholder="Please enter the flaw or risk you see to this business model."
                   required
                 />
               </div>
@@ -129,7 +139,7 @@ class App extends Component {
                   type="text"
                   name="body"
                   className="form-control no-border"
-                  placeholder="Please elaborate why you see it as a problem, and your solution to fixing it..."
+                  placeholder="Great! Now provide supporting evidience as to why you see this as a problem, why you are qualified to say this and how you suggest to overcome this hurdle..."
                   required
                 />
               </div>
@@ -141,6 +151,10 @@ class App extends Component {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+            <h3>Current Feedback</h3>
             {this.renderNotes()}
           </div>
         </div>

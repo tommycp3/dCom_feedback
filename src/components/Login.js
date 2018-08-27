@@ -30,6 +30,10 @@ class Login extends Component {
                 <i>
                   "The best way to involve the mesh and crowdsource the best ideas to use ethereum to bring accountability and transparency to our internet infrasctructure."
                 </i>
+                <br />
+                <br />
+                <h3>Login and give your feedback, to be eligible for 1 dCom Token.</h3>
+                <p>dCom token will be redeemable via your google account once token contract is live.</p>
               </p>
             </div>
           </div>
