@@ -52,10 +52,6 @@ class App extends Component {
           </Link>
           <p>{note.body}</p>
 
-
-
-
-
           {/* COMMENTED OUT DELETE AND UPDATE BUTTON FOR THE TIME BEING
           
           {note.uid === this.props.user.uid && (
@@ -73,12 +69,6 @@ class App extends Component {
           )}
 
           */}
-
-
-
-
-
-
         </NoteCard>
       );
     });
@@ -88,6 +78,9 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <div className="col-sm-12 ">
+          <h1 className="text-center">A Token with No Unknown "Research and Design" Costs </h1>
+          <br />
+          <br />
           <div className="intrinsic-container intrinsic-container-16x9">
             <iframe src="https://www.youtube.com/embed/77-7Nog0-lI" />
           </div>
