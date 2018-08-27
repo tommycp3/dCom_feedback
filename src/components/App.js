@@ -265,7 +265,7 @@ class App extends Component {
             <br />
             <br />
             <br />
-            <h3>Current Feedback</h3>
+            <h3>Scroll down for latest feedback</h3>
             <p>Click on a talking point to see sub discussion points.</p>
             {this.renderNotes()}
           </div>
