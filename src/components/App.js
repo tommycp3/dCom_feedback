@@ -246,7 +246,7 @@ class App extends Component {
               </div>
 
               <div className="form-group">
-                <button className="btn btn-primary col-sm-12">Save</button>
+                <button className="btn btn-primary col-sm-12">Submit Feedback for 1 dCom Token</button>
               </div>
             </form>
             <br />
