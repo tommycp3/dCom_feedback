@@ -235,7 +235,7 @@ class App extends Component {
                   type="text"
                   name="title"
                   className="form-control no-border"
-                  placeholder="Please enter the flaw or risk you see to this business model."
+                  placeholder="Please enter the flaw or risk you see to this business model to recieve 1 dCom token redeemable to your gmail account."
                   required
                 />
               </div>
