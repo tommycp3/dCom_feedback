@@ -78,12 +78,15 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <div className="col-sm-12 ">
-          <h1 className="text-center">Finally... A Token with No Unknown "Research and Design" Costs </h1>
+          <h1 className="text-center">Scroll down to give your feedback</h1>
           <br />
-          <br />
-          <div className="intrinsic-container intrinsic-container-16x9">
-            <iframe src="https://www.youtube.com/embed/77-7Nog0-lI" />
+
+          <div className="video75div">
+            <div className="intrinsic-container intrinsic-container-16x9">
+              <iframe src="https://www.youtube.com/embed/77-7Nog0-lI" />
+            </div>
           </div>
+          <br />
 
           <div>
             <h3>Supporting Documents</h3>
@@ -206,6 +209,11 @@ class App extends Component {
           </div>
         </div>
 
+        {/* I could add Intro.js to prompt people to give feedback
+        https://www.npmjs.com/package/intro.js-react
+        https://codesandbox.io/embed/o2A4gwXE3?hidenavigation=1
+      */}
+
         <div className="row">
           <div className="col-sm-2 text-center">
             <img
@@ -246,7 +254,9 @@ class App extends Component {
               </div>
 
               <div className="form-group">
-                <button className="btn btn-primary col-sm-12">Submit feedback for 1 dCom token</button>
+                <button className="btn btn-primary col-sm-12">
+                  Submit feedback for 1 dCom token
+                </button>
               </div>
             </form>
             <br />

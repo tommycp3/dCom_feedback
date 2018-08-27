@@ -33,6 +33,11 @@
 }
 
 /* THIS CSS CENTERS A VIDEO/IFRAME AND MAKES IT RESPONSIVE  */
+.video75div {
+    width: 75%;
+    margin: auto;
+}
+
 .intrinsic-container {
     position: relative;
     height: 0;
