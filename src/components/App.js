@@ -78,7 +78,7 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <div className="col-sm-12 ">
-          <h1 className="text-center">A Token with No Unknown "Research and Design" Costs </h1>
+          <h1 className="text-center">Finally... A Token with No Unknown "Research and Design" Costs </h1>
           <br />
           <br />
           <div className="intrinsic-container intrinsic-container-16x9">
@@ -246,7 +246,7 @@ class App extends Component {
               </div>
 
               <div className="form-group">
-                <button className="btn btn-primary col-sm-12">Submit Feedback for 1 dCom Token</button>
+                <button className="btn btn-primary col-sm-12">Submit feedback for 1 dCom token</button>
               </div>
             </form>
             <br />
