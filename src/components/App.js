@@ -180,7 +180,7 @@ class App extends Component {
                       <li>Sam Pospi? (Full-Stack-Dapp)</li>
                       <li>Santigo Del Valle? (Full-Stack-Dapp) - not confirmed</li>
                       <li>Kris Randall (Full-Stack-Dapp)</li>
-                      <li>If you want to help add to the comments below, describing how you would like to contribute.</li>
+                      <li>Feel Inspired? Want to help? Please describe how you would like to contribute in the comments below of call Tom on 0458944327</li>
                     </ul>
                   </li>
 
