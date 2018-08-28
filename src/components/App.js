@@ -85,11 +85,18 @@ class App extends Component {
             <div className="intrinsic-container intrinsic-container-16x9">
               <iframe src="https://www.youtube.com/embed/77-7Nog0-lI" />
             </div>
+            <p>New video with visualisations comming soon...</p>
           </div>
           <br />
 
           <div>
             <h3>Supporting Documents</h3>
+            <i>
+              <p>
+                Under Construction - What supporting documentation is required
+                for each stage of funding to kick-off?
+              </p>
+            </i>
             <ul>
               <li>
                 <a
@@ -104,7 +111,7 @@ class App extends Component {
                   href="https://drive.google.com/file/d/1uBAnIQ2d5ForoAlhqkIeK61vqFbnvdMi/view?usp=sharing"
                   target="_blank"
                 >
-                  Active Timeline - Placeholder
+                  Current Project Roadmap
                 </a>
               </li>
               <li>
@@ -131,6 +138,14 @@ class App extends Component {
                   keys.
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1SBiu27VVbxhUeUDCnmjYiJcZJEC9swGvy_Fbbcsf7xI/edit#gid=0"
+                  target="_blank"
+                >
+                  List of dCom Ethereum Bank Accounts
+                </a>
+              </li>
             </ul>
 
             <br />
@@ -139,6 +154,11 @@ class App extends Component {
             <br />
 
             <h4>Funding Stages</h4>
+            <i>
+              <p>
+                Under Construction - What should the funding stages look like?
+              </p>
+            </i>
 
             <ul>
               <li>
@@ -150,16 +170,35 @@ class App extends Component {
                   this financing and developer team to imporove investor portal.
                 </a>
                 <ul>
-                  <li>Thomas Miller $120k/year</li>
-                  <li>Greg Narracott $120k/year</li>
-                  <li>Greg Narracott $120k/year</li>
+                  <li>Thomas Miller (Jack of all trades)</li>
+                  <li>Greg Narracott (Network Infrastructure)</li>
+                  <li>Jason Adhock (Traditional Business Interface)</li>
+
+                  <li>
+                    <div>Dapp (Decentralised Application) Developers:</div>
+                    <ul>
+                      <li>Sam Pospi? (Full-Stack-Dapp)</li>
+                      <li>Santigo Del Valle? (Full-Stack-Dapp) - not confirmed</li>
+                      <li>Kris Randall (Full-Stack-Dapp)</li>
+                      <li>If you want to help add to the comments below, describing how you would like to contribute.</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <div>Traditional Advisors:</div>
+                    <ul>
+                      <li>placeholder</li>
+                      <li>placeholder</li>
+                    </ul>
+                  </li>
                 </ul>
 
                 <a
                   href="https://docs.google.com/presentation/d/15AnPP2wa1MrGCAZsnXRVqXN5qdybUGI_Z9Qw-h4bqkw/edit#slide=id.g3ed1b04126_0_0"
                   target="_blank"
                 >
-                  Stage 1 - Raise funds for Core Network in Brisbane
+                  Stage 1 - Raise funds for Core Network in Brisbane (Router in
+                  Brisbane) - $500k
                 </a>
               </li>
               <li>
@@ -167,7 +206,7 @@ class App extends Component {
                   href="https://drive.google.com/file/d/1uBAnIQ2d5ForoAlhqkIeK61vqFbnvdMi/view?usp=sharing"
                   target="_blank"
                 >
-                  Stage 2 - Raise funds for Stanthorpe, Warrick, Charleville
+                  Stage 2 - Raise funds for Stanthorpe, Warrick, Charleville -
                 </a>
               </li>
               <li>
